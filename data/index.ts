@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Work", link: "#Work" },
+  { name: "Work", link: "#work" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -47,7 +47,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/NickGeronimo/IphoneClone",
+    link: "https://iphone-clone-topaz.vercel.app/",
   },
 ];
 

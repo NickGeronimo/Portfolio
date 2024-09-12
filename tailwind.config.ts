@@ -42,6 +42,7 @@ const config = {
           "100": "#E4ECFF",
         },
         purple: "#CBACF9",
+        pokemonyellow: "#FFCC00",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -75,6 +76,7 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -160,6 +162,13 @@ const config = {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
+      aspectRatio:{
+        '1.4' : '10 / 14',
+        '4/3': '4 / 3',
+      },
+      backgroundImage: {
+        'noise-pattern': "url('/noise.png')",
+      }
     },
   },
   plugins: [
