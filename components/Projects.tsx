@@ -5,11 +5,11 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 
-const RecentProjects = () => {
+const Projects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        <span className="text-sky-500">Recent Projects</span>
+        <span className="text-sky-500">Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 ">
         {projects.map((item) => (
@@ -54,7 +54,7 @@ const RecentProjects = () => {
 
                 <div className="flex items-center justify-between mt-7 mb-3">
                   <div className="flex items-center">
-                    {item.iconLists.map((icon, index) => (
+                    {/* {item.iconLists.map((icon, index) => (
                       <div
                         key={index}
                         className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
@@ -64,7 +64,7 @@ const RecentProjects = () => {
                       >
                         <img src={icon} alt="icon5" className="p-2" />
                       </div>
-                    ))}
+                    ))} */}
                   </div>
 
                   <p className="flex lg:text-xl md:text-xs text-sm text-sky-500">
@@ -82,4 +82,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default Projects;

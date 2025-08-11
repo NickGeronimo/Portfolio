@@ -26,16 +26,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "",
   },
-  {
-    id: 3,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "md:col-span-1 md:row-span-1 z-10",
-    imgClassName: "",
-    titleClassName: "justify-end",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
 
 ];
 
@@ -49,39 +39,32 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://iphone-clone-topaz.vercel.app/",
   },
+  {
+    id: 2,
+    title: "WCAG Compliant Color Palette Visualizer",
+    des: "A tool for generating and testing color palettes for accessibility compliance.",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://colorpalettetester.vercel.app/",
+  },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Nick is truly one of the most genuine and dependable colleagues I’ve had the pleasure of working with. He’s a well-rounded developer with strong skills in both front-end and back-end development, and he consistently brings a positive, team-focused attitude to every project. Nick is always eager to learn and quick to help others, making him a valuable asset to any team. His dedication and attention to detail did not go unnoticed. Management brought him on to help review the work of newer developers and guide them in best practices. His mentorship has been impactful and speaks to both his technical ability and his collaborative nature. I’m confident that Nick will thrive in any role he takes on and I highly recommend working with him. I’m eager to team up with him again in the future and look forward to seeing the great things he accomplishes in his career.",
+    name: "Amanda Dovel",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Nick was a pivotal member of our team. He was invaluable and knowledgeable when anyone had a question. When answering questions, he would provide clear instructions on how to approach the solution and would offer clean code to help anyone on the team. You can always rely on him for anything. He also rose quickly to a leader within our team. He was thorough with reviewing code and layouts. He would ensure the code was kept clean, layouts were responsive, and made sure each page included proper GA4 tagging and was ADA compliant. It was an honor to work with him.",
+    name: "Perla Perez Orona",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+      "Working alongside Nick at DealerOn has been fantastic. He's incredibly hardworking and consistently manages a high volume of Salesforce cases, handling each with impressive efficiency. Nicholas is exceptionally versatile, confidently tackling tasks ranging from WAVE accessibility errors and detailed content migrations to polished homepage designs. Nick is also genuinely collaborative—he’s always ready to jump in and support team members, sharing his knowledge and skills freely. His positive attitude and strong work ethic make him not just reliable but also a pleasure to have on the team. Nicholas is a true asset, and I'd highly recommend him to any team seeking a dedicated, versatile, and supportive professional.",
+    name: "Steve Pelletier",
+  }
 ];
 
 export const companies = [
@@ -144,28 +127,7 @@ export const workExperience = [
   },
 ];
 
-export const approach = [
-  {
-    id: 1,
-    title: "Phase 1",
-    desc: "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.",
-    className: "md:col-span-2",
-  },
-  {
-    id: 2,
-    title: "Phase 2",
-    desc: "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.",
-    className: "md:col-span-2", // change to md:col-span-2
-  },
-  {
-    id: 3,
-    title: "Phase 3",
-    desc: "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
-    className: "md:col-span-2", // change to md:col-span-2
 
-  },
-
-];
 export const socialMedia = [
   {
     id: 1,

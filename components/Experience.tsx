@@ -4,6 +4,12 @@ import { Button } from './ui/MovingBorder'
 
 const Experience = () => {
   const events = [
+    {     date: '2024 - Present',
+          title: 'Web Designer',
+          company: 'DealerOn',
+          location: 'Remote',
+          description: 'At DealerOn, I played a key role in migrating thousands of dealership websites to the company\'s platform, ensuring consistent user experiences and seamless integrations across diverse client needs. I led efforts to modernize outdated site designs, aligning them with current automotive industry standards and unique dealership branding. My work prioritized accessibility, implementing ADA-compliant practices to meet WCAG guidelines and enhance usability for all users. I optimized both the functionality and visual design of websites to exceed client expectations and internal quality benchmarks. In addition to front-end development, I used Salesforce to manage project workflows, coordinate updates across cross-functional teams, and meet tight turnaround times. I also contributed to internal tool testing, offering feedback to improve efficiency for developers and designers, and helped onboard new contract hires by providing training, code reviews, and guidance on best practices.',
+    },
     {
       date: '2020 - 2024',
       title: 'Web Developer',
